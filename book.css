@@ -1,0 +1,63 @@
+/************************************************************** 完结作品库 *****************************************************/
+/*** channeltoplist **/
+body {
+	background-color: rgba(248, 248, 250, 1);
+}
+tr {
+	background-color: rgba(255, 255, 255, 1);
+	height: 35px;
+}
+
+/* 通用 */
+div {
+    font-family: "Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;";
+    font-size: 1em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 4px solid rgba(248, 248, 250, 1);;
+	height: 50px;
+}
+
+
+/* 标签导航栏 */
+#navbar a{
+    font-family: "Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;";
+    font-size: 1.2em;
+}
+#navbar a.current {
+	color: rgb(255, 162, 141);
+	font-size: 1.5em;
+}
+
+/* 表头 */
+td div {
+	text-align: left;
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+/* 书名 */
+a.tooltip {
+    font-family: "Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;";
+    font-size: 1.1em;
+    /*color: #333;*/
+}
+
+/* 其他单元格 */
+td {
+    text-align: left;
+    font-size: 1.1em;
+    font-family: "Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;"; /*预设宋体我比较迷惑的是算不算侵权*/
+    padding: 4px;
+    padding-left: 10px;
+}
+
+/* 进度 */
+td font {
+    color: #222; /* 啊这……font标签…… */
+}
